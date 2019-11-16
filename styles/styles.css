@@ -1,17 +1,8 @@
-/* .far {
-  font-size: 500px;
-  text-align: center;
-  width: 100%;
-}
-.fas {
-  font-size: 500px;
-  text-align: center;
-  width: 100%;
-} */
 .serifFont {
   font-family: "Times New Roman", Times, Georgia, serif;
 }
-section {
+section,
+input {
   margin: 0 auto;
   display: block;
   width: 18%;

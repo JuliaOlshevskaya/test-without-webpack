@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My new website</title>
+    <title>Light Bulb</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <script type="text/javascript" src="scripts/scripts.js"></script>
-    <script type="text/javascript">
-      alert("I am from html");
-    </script>
   </head>
-  <body>
-    <p>My new website without webpack</p>
-    <a href="pages/test2.html" target="_blanc">This is a link to TEST2.HTML</a>
+  <body onload="onPageLoad()" class="bodyNight">
+    <h1 class="h1Night serifFont" id="changingOfContent">Bulb is: OFF</h1>
+
+    <i
+      class="far fa-lightbulb commonStylesForIcons lightIsOn"
+      id="bulbIsOn"
+    ></i>
+    <i
+      class="fas fa-lightbulb commonStylesForIcons lightIsOff"
+      id="bulbIsOff"
+    ></i>
+    <br />
+
+    <section class="serifFont">
+      <button onclick="lightIsOn()" class="changeMargin" id="clickTurnLightOn">
+        turn on
+      </button>
+      <button onclick="lightIsOff()" id="clickTurnLightOff">turn off</button>
+    </section>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
   </body>
-  <a href="pages/test2.html" target="_blanc">This is a link to TEST2.HTML</a>
 </html>

@@ -1,6 +1,55 @@
-body {
-    color: rgb(214, 114, 81);
+/* .far {
+  font-size: 500px;
+  text-align: center;
+  width: 100%;
 }
-p{
-    font-size: 20px;
+.fas {
+  font-size: 500px;
+  text-align: center;
+  width: 100%;
+} */
+.serifFont {
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+section {
+  margin: 0 auto;
+  display: block;
+  width: 18%;
+}
+.changeMargin {
+  margin: 40px;
+}
+button {
+  text-transform: uppercase;
+  color: aliceblue;
+  background-color: rgb(223, 62, 62);
+  border: black solid 1px;
+  padding: 3px;
+}
+
+.bodyNight {
+  background-color: rgb(56, 56, 56);
+}
+.bodyDay {
+  background-color: rgb(250, 250, 11);
+}
+
+.h1Night {
+  color: aliceblue;
+  text-align: center;
+}
+.h1Day {
+  color: black;
+  text-align: center;
+}
+.commonStylesForIcons {
+  text-align: center;
+  font-size: 500px;
+  width: 100%;
+}
+.lightIsOn {
+  display: none;
+}
+.lightIsOff {
+  display: inherit;
 }

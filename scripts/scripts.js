@@ -8,15 +8,17 @@ const changeContentOfHeader = document.getElementById("changingOfContent");
 
 function lightIsOn() {
   lightBulbIsOn.style.display = "inherit";
+  lightBulbIsOn.style.color = "rgb(250, 250, 11)";
   lightBulbIsOff.style.display = "none";
-  backgroundColorOfBody[0].style.backgroundColor = "rgb(250, 250, 11)";
+  backgroundColorOfBody[0].style.backgroundColor = "white";
   changeContentOfHeader.innerText = "Bulb is: ON";
   changeContentOfHeader.style.color = "black";
 }
 function lightIsOff() {
   lightBulbIsOn.style.display = "none";
   lightBulbIsOff.style.display = "inherit";
-  backgroundColorOfBody[0].style.backgroundColor = "rgb(56, 56, 56)";
+  lightBulbIsOff.style.color = "black";
+  backgroundColorOfBody[0].style.backgroundColor = "grey";
   changeContentOfHeader.innerText = "Bulb is: OFF";
   changeContentOfHeader.style.color = "white";
 }
